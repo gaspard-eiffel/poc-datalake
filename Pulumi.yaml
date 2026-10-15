@@ -1,0 +1,9 @@
+name: poc-datalake
+description: Entra-only Azure Blob storage (ADLS Gen2) for the Eiffel datalake POC
+runtime:
+  name: python
+  options:
+    toolchain: uv
+config:
+  azure-native:location:
+    value: westeurope
